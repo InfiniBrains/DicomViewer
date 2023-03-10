@@ -1,0 +1,208 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CustomTreeView",
+                "object": true,
+                "qualifiedClassName": "CustomTreeView",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QTreeView"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CustomTreeView.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "FileSystem",
+                "object": true,
+                "qualifiedClassName": "FileSystem",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "treeView",
+                                "type": "QTreeView*"
+                            }
+                        ],
+                        "name": "setTree",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QDialog"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FileSystem.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "PatientListModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "openFolder",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "PatientListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PatientListModel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "PixmapImage",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "image",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "name": "setImage",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "PixmapImage",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "PixmapImage.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "QMLDicomImage",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "getPixmap",
+                        "returnType": "QPixmap"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "std::vector<char>"
+                            }
+                        ],
+                        "name": "openFile",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "QMLDicomImage",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "QMLDicomImage.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "SeriesListModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "patientId",
+                                "type": "QVariant"
+                            },
+                            {
+                                "name": "studyId",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "setModelData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "SeriesListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SeriesListModel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "StudyListModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "patientId",
+                                "type": "QVariant"
+                            }
+                        ],
+                        "name": "setModelData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "StudyListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "StudyListModel.h",
+        "outputRevision": 68
+    }
+]

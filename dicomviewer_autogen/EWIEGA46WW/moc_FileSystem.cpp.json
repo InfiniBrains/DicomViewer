@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "FileSystem",
+            "object": true,
+            "qualifiedClassName": "FileSystem",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "treeView",
+                            "type": "QTreeView*"
+                        }
+                    ],
+                    "name": "setTree",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDialog"
+                }
+            ]
+        }
+    ],
+    "inputFile": "FileSystem.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "SeriesListModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "patientId",
+                            "type": "QVariant"
+                        },
+                        {
+                            "name": "studyId",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "name": "setModelData",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "SeriesListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "SeriesListModel.h",
+    "outputRevision": 68
+}

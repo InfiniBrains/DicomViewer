@@ -1,0 +1,35 @@
+{
+    "classes": [
+        {
+            "className": "QMLDicomImage",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "getPixmap",
+                    "returnType": "QPixmap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "std::vector<char>"
+                        }
+                    ],
+                    "name": "openFile",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "QMLDicomImage",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "QMLDicomImage.h",
+    "outputRevision": 68
+}

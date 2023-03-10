@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "PatientListModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "name": "openFolder",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "PatientListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PatientListModel.h",
+    "outputRevision": 68
+}

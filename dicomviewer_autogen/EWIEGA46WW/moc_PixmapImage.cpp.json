@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "PixmapImage",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "image",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "name": "setImage",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "PixmapImage",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PixmapImage.h",
+    "outputRevision": 68
+}

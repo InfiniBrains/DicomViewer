@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "CustomTreeView",
+            "object": true,
+            "qualifiedClassName": "CustomTreeView",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QTreeView"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CustomTreeView.h",
+    "outputRevision": 68
+}
